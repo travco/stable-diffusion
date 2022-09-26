@@ -10,14 +10,14 @@
         <meta name="author" content="mauwii">
       
       
-        <link rel="canonical" href="https://lstein.github.io/stable-diffusion/installation/INSTALL_WINDOWS/">
+        <link rel="canonical" href="https://lstein.github.io/stable-diffusion/features/OUTPAINTING/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.2.11">
     
     
       
-        <title>Windows - Dream Script Docs</title>
+        <title>Outpainting - Dream Script Docs</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#windows" class="md-skip">
+        <a href="#outpainting" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Windows
+              Outpainting
             
           </span>
         </div>
@@ -245,12 +245,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -273,7 +275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/CHANGELOG/" class="md-nav__link">
+      <a href="../CHANGELOG/" class="md-nav__link">
         Changelog
       </a>
     </li>
@@ -287,7 +289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/CLI/" class="md-nav__link">
+      <a href="../CLI/" class="md-nav__link">
         CLI
       </a>
     </li>
@@ -301,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/EMBIGGEN/" class="md-nav__link">
+      <a href="../EMBIGGEN/" class="md-nav__link">
         Embiggen
       </a>
     </li>
@@ -315,7 +317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/IMG2IMG/" class="md-nav__link">
+      <a href="../IMG2IMG/" class="md-nav__link">
         Image-to-Image
       </a>
     </li>
@@ -329,7 +331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/INPAINTING/" class="md-nav__link">
+      <a href="../INPAINTING/" class="md-nav__link">
         Inpainting
       </a>
     </li>
@@ -343,7 +345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/OTHER/" class="md-nav__link">
+      <a href="../OTHER/" class="md-nav__link">
         Others
       </a>
     </li>
@@ -355,11 +357,72 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../features/OUTPAINTING/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Outpainting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Outpainting
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#continous-outpainting" class="md-nav__link">
+    Continous outpainting
+  </a>
+  
+    <nav class="md-nav" aria-label="Continous outpainting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-usage" class="md-nav__link">
+    Basic Usage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-usage" class="md-nav__link">
+    Advanced Usage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -371,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/PROMPTS/" class="md-nav__link">
+      <a href="../PROMPTS/" class="md-nav__link">
         Prompting Features
       </a>
     </li>
@@ -385,7 +448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/TEXTUAL_INVERSION/" class="md-nav__link">
+      <a href="../TEXTUAL_INVERSION/" class="md-nav__link">
         TEXTUAL_INVERSION
       </a>
     </li>
@@ -399,7 +462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/UPSCALE/" class="md-nav__link">
+      <a href="../UPSCALE/" class="md-nav__link">
         Upscale
       </a>
     </li>
@@ -413,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/VARIATIONS/" class="md-nav__link">
+      <a href="../VARIATIONS/" class="md-nav__link">
         Variations
       </a>
     </li>
@@ -427,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/WEB/" class="md-nav__link">
+      <a href="../WEB/" class="md-nav__link">
         Barebones Web Server
       </a>
     </li>
@@ -509,14 +572,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
@@ -539,7 +600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../INSTALL_DOCKER/" class="md-nav__link">
+      <a href="../../installation/INSTALL_DOCKER/" class="md-nav__link">
         Before you begin
       </a>
     </li>
@@ -553,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../INSTALL_LINUX/" class="md-nav__link">
+      <a href="../../installation/INSTALL_LINUX/" class="md-nav__link">
         Linux
       </a>
     </li>
@@ -567,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../INSTALL_MAC/" class="md-nav__link">
+      <a href="../../installation/INSTALL_MAC/" class="md-nav__link">
         macOS
       </a>
     </li>
@@ -579,86 +640,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Windows
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../installation/INSTALL_WINDOWS/" class="md-nav__link">
         Windows
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#notebook-install-semi-automated" class="md-nav__link">
-    Notebook install (semi-automated)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manual-install" class="md-nav__link">
-    Manual Install
-  </a>
-  
-    <nav class="md-nav" aria-label="Manual Install">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pip" class="md-nav__link">
-    pip
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#conda" class="md-nav__link">
-    Conda
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#updating-to-newer-versions-of-the-script" class="md-nav__link">
-    Updating to newer versions of the script
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -759,43 +745,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#notebook-install-semi-automated" class="md-nav__link">
-    Notebook install (semi-automated)
+  <a href="#continous-outpainting" class="md-nav__link">
+    Continous outpainting
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manual-install" class="md-nav__link">
-    Manual Install
-  </a>
-  
-    <nav class="md-nav" aria-label="Manual Install">
+    <nav class="md-nav" aria-label="Continous outpainting">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pip" class="md-nav__link">
-    pip
+  <a href="#basic-usage" class="md-nav__link">
+    Basic Usage
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#conda" class="md-nav__link">
-    Conda
+  <a href="#advanced-usage" class="md-nav__link">
+    Advanced Usage
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#updating-to-newer-versions-of-the-script" class="md-nav__link">
-    Updating to newer versions of the script
-  </a>
   
 </li>
       
@@ -811,126 +783,70 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/lstein/stable-diffusion/edit/main/docs/installation/INSTALL_WINDOWS.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/lstein/stable-diffusion/edit/main/docs/features/OUTPAINTING.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="windows"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m0 93.7 183.6-25.3v177.4H0V93.7zm0 324.6 183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/></svg></span> Windows<a class="headerlink" href="#windows" title="Permanent link">#</a></h1>
-<h2 id="notebook-install-semi-automated"><strong>Notebook install (semi-automated)</strong><a class="headerlink" href="#notebook-install-semi-automated" title="Permanent link">#</a></h2>
-<p>We have a
-<a href="https://github.com/invoke-ai/InvokeAI/blob/main/notebooks/Stable-Diffusion-local-Windows.ipynb">Jupyter notebook</a>
-with cell-by-cell installation steps. It will download the code in this repo as
-one of the steps, so instead of cloning this repo, simply download the notebook
-from the link above and load it up in VSCode (with the appropriate extensions
-installed)/Jupyter/JupyterLab and start running the cells one-by-one.</p>
-<p>Note that you will need NVIDIA drivers, Python 3.10, and Git installed
-beforehand - simplified
-<a href="https://github.com/invoke-ai/InvokeAI/wiki/Easy-peasy-Windows-install">step-by-step instructions</a>
-are available in the wiki (you'll only need steps 1, 2, &amp; 3 ).</p>
-<h2 id="manual-install"><strong>Manual Install</strong><a class="headerlink" href="#manual-install" title="Permanent link">#</a></h2>
-<h3 id="pip"><strong>pip</strong><a class="headerlink" href="#pip" title="Permanent link">#</a></h3>
-<p>See
-<a href="https://github.com/invoke-ai/InvokeAI/wiki/Easy-peasy-Windows-install">Easy-peasy Windows install</a>
-in the wiki</p>
-<hr />
-<h3 id="conda"><strong>Conda</strong><a class="headerlink" href="#conda" title="Permanent link">#</a></h3>
+<h1 id="outpainting"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.134 1.535C9.722 2.562 8.16 4.057 6.889 5.312 5.8 6.387 5.041 7.401 4.575 8.294a3.745 3.745 0 0 0-3.227 1.054c-.43.431-.69 1.066-.86 1.657a11.982 11.982 0 0 0-.358 1.914A21.263 21.263 0 0 0 0 15.203v.054l.75-.007-.007.75h.054a14.404 14.404 0 0 0 .654-.012 21.243 21.243 0 0 0 1.63-.118c.62-.07 1.3-.18 1.914-.357.592-.17 1.226-.43 1.657-.861a3.745 3.745 0 0 0 1.055-3.217c.908-.461 1.942-1.216 3.04-2.3 1.279-1.262 2.764-2.825 3.775-4.249.501-.706.923-1.428 1.125-2.096.2-.659.235-1.469-.368-2.07-.606-.607-1.42-.55-2.069-.34-.66.213-1.376.646-2.076 1.155zm-3.95 8.48a3.76 3.76 0 0 0-1.19-1.192 9.758 9.758 0 0 1 1.161-1.607l1.658 1.658a9.853 9.853 0 0 1-1.63 1.142zM.742 16l.007-.75-.75.008A.75.75 0 0 0 .743 16zM12.016 2.749c-1.224.89-2.605 2.189-3.822 3.384l1.718 1.718c1.21-1.205 2.51-2.597 3.387-3.833.47-.662.78-1.227.912-1.662.134-.444.032-.551.009-.575h-.001V1.78c-.014-.014-.112-.113-.548.027-.432.14-.995.462-1.655.942zM1.62 13.089a19.56 19.56 0 0 0-.104 1.395 19.55 19.55 0 0 0 1.396-.104 10.528 10.528 0 0 0 1.668-.309c.526-.151.856-.325 1.011-.48a2.25 2.25 0 0 0-3.182-3.182c-.155.155-.329.485-.48 1.01a10.515 10.515 0 0 0-.309 1.67z"/></svg></span> Outpainting<a class="headerlink" href="#outpainting" title="Permanent link">#</a></h1>
+<h2 id="continous-outpainting">Continous outpainting<a class="headerlink" href="#continous-outpainting" title="Permanent link">#</a></h2>
+<p>This extension uses the inpainting code to extend an existing image to
+any direction of "top", "right", "bottom" or "left". To use it you
+need to provide an initial image with -I and an extension direction
+with -D (direction). When extending using outpainting a higher img2img
+strength value of 0.83 is the default.</p>
+<p>The code is not foolproof. Sometimes it will do a good job extending
+the image, and other times it will generate ghost images and other
+artifacts. In addition, the code works best on images that were
+generated by dream.py, because it will be able to recover the original
+prompt that generated the file and "understand" what you are trying to
+achieve.</p>
+<h3 id="basic-usage">Basic Usage<a class="headerlink" href="#basic-usage" title="Permanent link">#</a></h3>
+<p>To illustrate, consider this image generated with the prompt "fantasy
+portrait of eleven princess." It's nice, but rather annoying that the
+top of the head has been cropped off.</p>
+<p><img alt="elven_princess" src="../../assets/outpainting/elven_princess.png" /></p>
+<p>We can fix that using the <code>!fix</code> command!</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>dream&gt; !fix my_images/elven_princess.png -D top 50
+</code></pre></div>
+<p>This is telling dream.py to open up a rectangle 50 pixels high at the
+top of the image and outpaint into it. The result is:</p>
+<p><img alt="elven_princess.fixed" src="../../assets/outpainting/elven_princess.outpainted.png" /></p>
+<p>Viola! You can similarly specify <code>bottom</code>, <code>left</code> or <code>right</code> to
+outpaint into these margins.</p>
+<p>There are some limitations to be aware of:</p>
 <ol>
 <li>
-<p>Install Anaconda3 (miniconda3 version) from <a href="https://docs.anaconda.com/anaconda/install/windows/">here</a></p>
+<p>You cannot change the size of the image rectangle. In the example,
+   notice that the whole image is shifted downwards by 50 pixels, rather
+   than the top being extended upwards.</p>
 </li>
 <li>
-<p>Install Git from <a href="https://git-scm.com/download/win">here</a></p>
+<p>Attempting to outpaint larger areas will frequently give rise to ugly
+   ghosting effects.</p>
 </li>
 <li>
-<p>Launch Anaconda from the Windows Start menu. This will bring up a command
-   window. Type all the remaining commands in this window.</p>
+<p>For best results, try increasing the step number.</p>
 </li>
 <li>
-<p>Run the command:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>git clone https://github.com/invoke-ai/InvokeAI.git
-</code></pre></div>
-<p>This will create stable-diffusion folder where you will follow the rest of
-the steps.</p>
-</li>
-<li>
-<p>Enter the newly-created stable-diffusion folder. From this step forward make
-   sure that you are working in the stable-diffusion directory!</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="k">cd</span> stable-diffusion
-</code></pre></div>
-</li>
-<li>
-<p>Run the following two commands:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>conda env create -f environment.yaml
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a>conda activate ldm
-</code></pre></div>
-<p>This will install all python requirements and activate the "ldm" environment
-which sets PATH and other environment variables properly.</p>
-</li>
-<li>
-<p>Run the command:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a>python scripts\preload_models.py
-</code></pre></div>
-<p>This installs several machine learning models that stable diffusion requires.</p>
-<p>Note: This step is required. This was done because some users may might be
-blocked by firewalls or have limited internet connectivity for the models to
-be downloaded just-in-time.</p>
-</li>
-<li>
-<p>Now you need to install the weights for the big stable diffusion model.</p>
-<ul>
-<li>For running with the released weights, you will first need to set up an
-    acount with <a href="https://huggingface.co">Hugging Face</a>.</li>
-<li>Use your credentials to log in, and then point your browser at
-    <a href="https://huggingface.co/CompVis/stable-diffusion-v-1-4-original">https://huggingface.co/CompVis/stable-diffusion-v-1-4-original</a>.</li>
-<li>You may be asked to sign a license agreement at this point.</li>
-<li>Click on "Files and versions" near the top of the page, and then click on
-    the file named <code>sd-v1-4.ckpt</code>. You'll be taken to a page that prompts you
-    to click the "download" link. Now save the file somewhere safe on your
-    local machine.</li>
-<li>The weight file is &gt;4 GB in size, so downloading may take a while.</li>
-</ul>
-<p>Now run the following commands from <strong>within the stable-diffusion directory</strong>
-  to copy the weights file to the right place:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="k">mkdir</span> -p models\ldm\stable-diffusion-v1
-<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="k">copy</span> C:\path\to\sd-v1-4.ckpt models\ldm\stable-diffusion-v1\model.ckpt
-</code></pre></div>
-<p>Please replace <code>C:\path\to\sd-v1.4.ckpt</code> with the correct path to wherever
-you stashed this file. If you prefer not to copy or move the .ckpt file, you
-may instead create a shortcut to it from within
-<code>models\ldm\stable-diffusion-v1\</code>.</p>
-</li>
-<li>
-<p>Start generating images!</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a># for the pre-release weights
-<a id="__codelineno-5-2" name="__codelineno-5-2"></a>python scripts\dream.py -l
-<a id="__codelineno-5-3" name="__codelineno-5-3"></a>
-<a id="__codelineno-5-4" name="__codelineno-5-4"></a># for the post-release weights
-<a id="__codelineno-5-5" name="__codelineno-5-5"></a>python scripts\dream.py
-</code></pre></div>
-</li>
-<li>
-<p>Subsequently, to relaunch the script, first activate the Anaconda command
-    window (step 3),enter the stable-diffusion directory (step 5,
-    <code>cd \path\to\stable-diffusion</code>), run <code>conda activate ldm</code> (step 6b), and
-    then launch the dream script (step 9).</p>
-<p><strong>Note:</strong> Tildebyte has written an alternative
-<a href="https://github.com/invoke-ai/InvokeAI/wiki/Easy-peasy-Windows-install">"Easy peasy Windows install"</a>
-which uses the Windows Powershell and pew. If you are having trouble with
-Anaconda on Windows, give this a try (or try it first!)</p>
+<p>If you don't specify a pixel value in -D, it will default to half
+   of the whole image, which is likely not what you want.</p>
 </li>
 </ol>
-<hr />
-<h2 id="updating-to-newer-versions-of-the-script">Updating to newer versions of the script<a class="headerlink" href="#updating-to-newer-versions-of-the-script" title="Permanent link">#</a></h2>
-<p>This distribution is changing rapidly. If you used the <code>git clone</code> method
-(step 5) to download the stable-diffusion directory, then to update to the
-latest and greatest version, launch the Anaconda window, enter
-<code>stable-diffusion</code>, and type:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a>git pull
-<a id="__codelineno-6-2" name="__codelineno-6-2"></a>conda env update -f environment.yaml
+<p>You can do more with <code>!fix</code> including upscaling and facial
+reconstruction of previously-generated images. See
+[./UPSCALE.md#fixing-previously-generated-images] for the details.</p>
+<h3 id="advanced-usage">Advanced Usage<a class="headerlink" href="#advanced-usage" title="Permanent link">#</a></h3>
+<p>For more control over the outpaintihg process, you can provide the
+<code>-D</code> option at image generation time. This allows you to apply all the
+controls, including the ability to resize the image and apply face-fixing
+and upscaling. For example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>dream&gt; man with cat on shoulder -I./images/man.png -D bottom 100 -W960 -H960 -fit
 </code></pre></div>
-<p>This will bring your local copy into sync with the remote one.</p>
+<p>Or even shorter, since the prompt is read from the metadata of the old image:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>dream&gt; -I./images/man.png -D bottom 100 -W960 -H960 -fit -U2 -G1
+</code></pre></div>
 
   <hr>
 <div class="md-source-file">
@@ -941,7 +857,7 @@ latest and greatest version, launch the Anaconda window, enter
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 11, 2022</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 21, 2022</span>
       
     
   </small>
@@ -959,7 +875,7 @@ latest and greatest version, launch the Anaconda window, enter
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../INSTALL_MAC/" class="md-footer__link md-footer__link--prev" aria-label="Previous: macOS" rel="prev">
+        <a href="../OTHER/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Others" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -968,20 +884,20 @@ latest and greatest version, launch the Anaconda window, enter
               <span class="md-footer__direction">
                 Previous
               </span>
-              macOS
+              Others
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../other/CONTRIBUTORS/" class="md-footer__link md-footer__link--next" aria-label="Next: Contributors" rel="next">
+        <a href="../PROMPTS/" class="md-footer__link md-footer__link--next" aria-label="Next: Prompting Features" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Contributors
+              Prompting Features
             </div>
           </div>
           <div class="md-footer__button md-icon">
